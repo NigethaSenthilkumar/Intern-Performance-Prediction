@@ -57,7 +57,6 @@ plt.show()
 os.makedirs("output", exist_ok=True)
 
 df.to_csv("output/cleaned_intern_dataset.csv", index=False)
-
 print("\nCleaned dataset saved successfully!")
 
 
